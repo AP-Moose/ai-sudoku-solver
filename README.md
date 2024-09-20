@@ -1,36 +1,34 @@
-# Sudoku Solver with AI
+# Sudoku Solver with AI - Partial Implementation
 
-   This project implements an AI agent to solve diagonal Sudoku puzzles using constraint propagation and search strategies. It includes the implementation of the "naked twins" strategy and supports diagonal Sudoku puzzles.
+This project contains a partial implementation of an AI agent to solve diagonal Sudoku puzzles using constraint propagation and search strategies. It focuses on the `solution.py` file, which was developed as part of the Udacity Artificial Intelligence Nanodegree Program (Course 1: Sudoku Solver).
 
-   ## Installation
+**Note**: This repository does not contain the full project setup or all the requirements necessary for running the complete Sudoku solver. It only includes the core solving logic implemented in `solution.py`.
 
-   1. Clone this repository:
-      ```
-      git clone https://github.com/your-username/sudoku-solver.git
-      cd sudoku-solver
-      ```
+## Features
 
-   2. Create and activate a virtual environment:
-      ```
-      python -m venv venv
-      source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-      ```
+- Implementation of the "naked twins" strategy
+- Support for diagonal Sudoku puzzles
+- Constraint propagation and search algorithms
 
-   3. Install the required packages:
-      ```
-      pip install -r requirements.txt
-      ```
+## File Description
 
-   ## Usage
+- `solution.py`: Contains the main implementation of the Sudoku solving algorithms, including:
+  - Naked twins strategy
+  - Constraint propagation
+  - Search algorithms for solving Sudoku puzzles
 
-   Run the Sudoku solver:
-   ```
-   python solution.py
-   ```
+## Usage
 
-   Run the tests:
-   ```
-   python -m unittest discover tests
-   ```
+As this is a partial implementation, you cannot run the solver directly. The `solution.py` file is meant to be integrated into the full Udacity project environment.
 
-   [Rest of your existing README content goes here]
+## Important Note
+
+This repository does not include the entire project setup or all necessary dependencies as requested by the course license. It is intended to showcase the core solving logic implemented in `solution.py`.
+
+## Acknowledgments
+
+This project was completed as part of the Udacity Artificial Intelligence Nanodegree Program. The implementation in `solution.py` was developed to meet the project requirements while adhering to the course license agreement.
+
+## License
+
+Please refer to the Udacity course materials for licensing information regarding the use and distribution of this code.
